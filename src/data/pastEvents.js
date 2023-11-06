@@ -1,5 +1,32 @@
 export const pastEvents = [
   {
+    id: 18,
+    img: "images/pastevents/ambush.jpg",
+    title: "Ambush Marketing",
+    description:
+      "Ambush Marketing An engaging event featuring a roast battle and ambush marketing competition, where participants showcase their wit and creativity in attacking rival companies' strategies to emerge victorious, focusing on economics, technology, science fiction, multiverse, and superheroes themes.",
+  },
+  {
+    id: 19,
+    img: "images/pastevents/global.jpg",
+    title: "Global-O-Poly",
+    description:
+      "Global - o - poly Teams bid on resources from various universes based on assigned countries' economic profiles and policies, using 1% of their GDP as funds, competing in a strategic auction event",  },
+  {
+    id: 20,
+    img: "images/pastevents/mock23.jpg",
+    title: "Mock RBI",
+    description:
+      "Mock RBI An online economic simulation game by Anirveda, where participants represent different countries, making strategic decisions to navigate real-life economic challenges, including historical crises, aiming to earn points and be declared the ultimate conqueror of the economy",
+},
+  {
+    id: 21,
+    img: "images/pastevents/wot1.jpg",
+    title: "World Of Tech",
+    description:
+      "World Of Tech A sophisticated quiz event structured as a narrative journey, exploring the latest trends and innovations in technology through intricate question stories.",
+},
+  {
     id: 15,
     img: "images/pastevents/datanomics.jpg",
     title: "Datanomics",
@@ -119,5 +146,6 @@ export const pastEvents = [
     description:
       "A quiz with 25 theme-based questions on Global Economics and Econometrics of running a country that will increase the awareness about general terms of macroscale finance and global flow of money",
   },
+  
 
 ]

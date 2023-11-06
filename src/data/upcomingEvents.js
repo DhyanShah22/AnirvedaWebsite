@@ -167,54 +167,54 @@ const upcomingEvents = [
   //      "https://forms.gle/NAWRKRHBYqJWkBHs7",
   //   //state: "ipl", // This field is used to identify the event in the registration page. It will be used directly in the DB.
   // },
-  {
-    id: 4,
-    img: "images/upcomingevents/ambush.jpg",
-    title: "Ambush Marketing",
-    timing: "9:00 AM",
-    date: "5 November 2023",
-    venue: "BLT-01",
-    description:
-      "Ambush Marketing An engaging event featuring a roast battle and ambush marketing competition, where participants showcase their wit and creativity in attacking rival companies' strategies to emerge victorious, focusing on economics, technology, science fiction, multiverse, and superheroes themes.",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSc0A1HyUWl80ALRI4I2Ny9zAsQJHYgCDQ3kHiisq3RhnkqkZg/viewform?usp=sf_link",
-    //state: "ambush", // This field is used to identify the event in the registration page. It will be used directly in the DB.
-  },
-  {
-    id: 5,
-    img: "images/upcomingevents/global.jpg",
-    title: "Global-O-Poly",
-    timing: "9:00 AM",
-    date: "4 November 2023",
-    venue: "D-008",
-    description:
-      "Global - o - poly Teams bid on resources from various universes based on assigned countries' economic profiles and policies, using 1% of their GDP as funds, competing in a strategic auction event",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdGEmzjcIrssCuJ3s2C_Cx0tQHzzAGJCp3ffbSPhBe6L-GPGQ/viewform?usp=sf_link",
-    //state: "global", // This field is used to identify the event in the registration page. It will be used directly in the DB.
-  },
-  {
-    id: 6,
-    img: "images/upcomingevents/mock23.jpg",
-    title: "Mock Rbi",
-    timing: "3:00 PM - 6:00 PM",
-    date: "4 November 2023",
-    venue: "E-003",
-    description:
-      "Mock RBI An online economic simulation game by Anirveda, where participants represent different countries, making strategic decisions to navigate real-life economic challenges, including historical crises, aiming to earn points and be declared the ultimate conqueror of the economy",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeEA_r9RelmKzUqL6tNFKEm-9ricj7HwES6c4u_CkDv_HUhlA/viewform?usp=sf_link",
-    //state: "rbi", // This field is used to identify the event in the registration page. It will be used directly in the DB.
-  },
-  {
-    id: 7,
-    img: "images/upcomingevents/wot1.jpg",
-    title: "World Of Tech",
-    timing: "12:00 PM - 2:00 PM",
-    date: "4 November 2023",
-    venue: "TBA",
-    description:
-      "World Of Tech A sophisticated quiz event structured as a narrative journey, exploring the latest trends and innovations in technology through intricate question stories.",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeRyKgHesuogYhFVAOvvr8sYDyifKSxDU1Fx9jiRYcbTPBRxQ/viewform?usp=sf_link",
-    //state: "wot", // This field is used to identify the event in the registration page. It will be used directly in the DB.
-  },
+  // {
+  //   id: 4,
+  //   img: "images/upcomingevents/ambush.jpg",
+  //   title: "Ambush Marketing",
+  //   timing: "9:00 AM",
+  //   date: "5 November 2023",
+  //   venue: "BLT-01",
+  //   description:
+  //     "Ambush Marketing An engaging event featuring a roast battle and ambush marketing competition, where participants showcase their wit and creativity in attacking rival companies' strategies to emerge victorious, focusing on economics, technology, science fiction, multiverse, and superheroes themes.",
+  //   registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSc0A1HyUWl80ALRI4I2Ny9zAsQJHYgCDQ3kHiisq3RhnkqkZg/viewform?usp=sf_link",
+  //   //state: "ambush", // This field is used to identify the event in the registration page. It will be used directly in the DB.
+  // },
+  // {
+  //   id: 5,
+  //   img: "images/upcomingevents/global.jpg",
+  //   title: "Global-O-Poly",
+  //   timing: "9:00 AM",
+  //   date: "4 November 2023",
+  //   venue: "D-008",
+  //   description:
+  //     "Global - o - poly Teams bid on resources from various universes based on assigned countries' economic profiles and policies, using 1% of their GDP as funds, competing in a strategic auction event",
+  //   registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdGEmzjcIrssCuJ3s2C_Cx0tQHzzAGJCp3ffbSPhBe6L-GPGQ/viewform?usp=sf_link",
+  //   //state: "global", // This field is used to identify the event in the registration page. It will be used directly in the DB.
+  // },
+  // {
+  //   id: 6,
+  //   img: "images/upcomingevents/mock23.jpg",
+  //   title: "Mock Rbi",
+  //   timing: "3:00 PM - 6:00 PM",
+  //   date: "4 November 2023",
+  //   venue: "E-003",
+  //   description:
+  //     "Mock RBI An online economic simulation game by Anirveda, where participants represent different countries, making strategic decisions to navigate real-life economic challenges, including historical crises, aiming to earn points and be declared the ultimate conqueror of the economy",
+  //   registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeEA_r9RelmKzUqL6tNFKEm-9ricj7HwES6c4u_CkDv_HUhlA/viewform?usp=sf_link",
+  //   //state: "rbi", // This field is used to identify the event in the registration page. It will be used directly in the DB.
+  // },
+  // {
+  //   id: 7,
+  //   img: "images/upcomingevents/wot1.jpg",
+  //   title: "World Of Tech",
+  //   timing: "12:00 PM - 2:00 PM",
+  //   date: "4 November 2023",
+  //   venue: "TBA",
+  //   description:
+  //     "World Of Tech A sophisticated quiz event structured as a narrative journey, exploring the latest trends and innovations in technology through intricate question stories.",
+  //   registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeRyKgHesuogYhFVAOvvr8sYDyifKSxDU1Fx9jiRYcbTPBRxQ/viewform?usp=sf_link",
+  //   //state: "wot", // This field is used to identify the event in the registration page. It will be used directly in the DB.
+  // },
 ]
 
 export default upcomingEvents
